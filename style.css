@@ -1,11 +1,24 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.header {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
 .header1 {
     display: flex;
     justify-content: space-between;
+    margin: 10px 50px;
+
 }
 
 .logo {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 }
 
 ul {
@@ -19,4 +32,65 @@ ul {
 a {
     text-decoration: none;
     color: black;
+    font-weight: bold;
+}
+
+.back {
+    background-color: #F9F9F9;
+    margin: 0px;
+    padding: 0px;
+}
+.content {
+    display: flex;
+    margin: 20px 100px;
+    justify-content: center;
+    gap: 20px;
+    padding-top:30px;
+
+}
+
+.other-videos {
+    width: auto;
+    height: 100px;
+}
+
+.reglon {
+    border-top: 1px solid rgb(185, 183, 183);
+    border-bottom: 1px solid rgb(182, 180, 180);
+}
+
+.comment {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+}
+
+.name {
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+.column-1 {
+    flex:1 ;
+}
+.column-2 {
+    width: 700px;
+}
+
+.new-video {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.title3 {
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
 }
